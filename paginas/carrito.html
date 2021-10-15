@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Icono -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/favicon-32x32.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet"></head>
+<body>
+    <!-- Comienza el header -->
+    <header>
+        <!-- nombre y logo -->
+        <div class="header-nombre_logo">            <img src="../imagenes/logo mate.jpg" class="header-logo" alt="Logo de Toma Tu Mate" >
+            <h1 class="header-titulo">Toma Tu Mate</h1>
+        </div>
+        <nav>
+            <div  class="nav-menu" id="menú">
+                <!-- Menú -->
+                <ul>
+                    <li class="nav-menu-marcador">
+                        <a href="../index.html">Inicio</a>
+                    </li class="nav-menu-marcador">
+                    <li class="nav-menu-marcador">
+                        <a href="productos.html">Productos</a>
+                    </li class="nav-menu-marcador">
+                    <li class="nav-menu-marcador">
+                        <a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-menu-marcador">
+                        <a href="quienes-somos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-menu-marcador">
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="carrito.html#carrito"><img src="../imagenes/carrito-de-compras.png" class="nav-carrito" alt="Logo carrito"  title="Carrito"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Comienza el main -->
+    <main>
+        <table id="carrito" class="carrito" border="1px solid black">
+            <tr>
+                <th>Producto(s)</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../imagenes/productos/mate-camionero-uruy.jpg" alt="Mate Camionero Uruguayo" class="carrito-producto-img">
+                </td>
+                <td>
+                    <p>$3000</p>
+                </td>
+                <td>
+                    <p>1</p>
+                </td>
+                <td>
+                    <p>$-</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../imagenes/productos/mate-torpedo-uru.jpg" alt="Mate Torpedo Uruguayo" class="carrito-producto-img">
+                </td>
+                <td>
+                    <p>$3000</p>
+                </td>
+                <td>
+                    <p>1</p>
+                </td>
+                <td>
+                    <p>$-</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../imagenes/productos/termo termolar.jpg" alt="Termo Termolar" class="carrito-producto-img">
+                </td>
+                <td>
+                    <p>$6000</p>
+                </td>
+                <td>
+                    <p>1</p>
+                </td>
+                <td>
+                    <p>$12000</p>
+                </td>
+            </tr>
+        </table>
+        <div class="div-carrito">
+            <button type="button" class="boton-carrito">Finalizar compra</button>
+        </div>      
+    </main>
+
+    <!-- Comienza el footer -->
+    <footer>
+        <!-- Redes sociales -->
+        <div>
+            <a href="https://www.instagram.com/nicofiore_/" target="_blank">Instagram</a>
+        </div>
+        <div>
+         <p>©Copyright 2021</p> 
+        </div>
+     </footer>
+</body>
+</html>
