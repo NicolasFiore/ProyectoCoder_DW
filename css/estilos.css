@@ -31,6 +31,13 @@ header, footer{
     color: white;
     display: inline-block;
 }
+.header-titulo-inicio{
+    font-family: 'Alegreya SC', serif;
+    text-align: left;
+    vertical-align: -10px;
+    color: white;
+    display: inline-block;
+}
 /* subir al inicio */
 .menú-up{
     margin-left: 1225px;
@@ -73,24 +80,49 @@ footer a, footer p {
     margin-left: 5px;
 }
 /* inicio */
+.ordenCarrousel{
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
 .tabla-cabeceros{
     background-color: #804000;
     color: white;
+    border: black solid;
 }
 .tabla{
     margin-top: 10px;
     margin-bottom: 15px;
     margin-left: 100px;
     margin-right: 100px;
+    border: black solid;
+}
+.tabla th{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border: black solid;
 }
 .tabla td{
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    border: black solid;
+}
+.combos{
+    background-color: #804000;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: center;
+    padding: 5px;
+    height: 275px;
 }
 
 /* productos */
 .categorias{
+    border-radius: 15px;
     background-color: #bebfbd;
     float: left;
     padding-right: 10px;
@@ -98,13 +130,8 @@ footer a, footer p {
     margin-left: 5px;
     width: 135px;;
 }
-.categorias h2{
-    display: inline-block;
-}
-.categorias button{
-    display: inline;
-    background-color: #bebfbd;
-    border: none;
+.categorias summary{
+    padding: 10px;
 }
 .categorias-menú ul{
     list-style-type: none;
