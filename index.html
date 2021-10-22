@@ -23,231 +23,215 @@
             <img src="imagenes/logo mate.jpg" class="header-logo" alt="Logo de Toma Tu Mate">
             <h1 class="header-titulo">Toma Tu Mate</h1>
         </div>
-        <nav >
-            <div class="nav-menu" id="menú">
-                <!-- Menú -->
-                <ul>
-                    <li class="nav-menu-marcador">
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-menu-marcador">
-                        <a href="paginas/productos.html">Productos</a>
-                    </li>
-                    <li class="nav-menu-marcador">
-                        <a href="paginas/preguntas-frecuentes.html">Preguntas frecuentes</a>
-                    </li>
-                    <li class="nav-menu-marcador">
-                        <a href="paginas/quienes-somos.html">Quienes somos</a>
-                    </li>
-                    <li class="nav-menu-marcador">
-                        <a href="paginas/contacto.html">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="paginas/carrito.html#carrito"><img src="imagenes/carrito-de-compras.png" class="nav-carrito" alt="Logo carrito" title="Carrito"></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <!-- menú -->
+        <div>
+            <nav id="menu" class="navbar navbar-expand-lg  navbar-light navbar-dark  ">
+                <div class="container-fluid">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdownCinco"
+                        aria-controls="navbarNavDropdownCinco"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdownCinco">
+                        <ul class="navbar-nav itemsNavegacionTres">
+                            <li class="nav-item nav-menu-marcador">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown nav-menu-marcador">
+                                <a class="nav-link dropdown-toggle active" href="paginas/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="paginas/productos.html">Todos</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="paginas/productos-categorias/mates.html">Mates</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="paginas/productos-categorias/bombillas.html">Bombillas</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="paginas/productos-categorias/termos.html">Termos</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="paginas/productos-categorias/yerbas.html">Yerbas</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item nav-menu-marcador">
+                                <a class="nav-link active" href="paginas/preguntas-frecuentes.html">Preguntas frecuentes</a>
+                            </li>
+                            <li class="nav-item nav-menu-marcador">
+                                <a class="nav-link active" href="paginas/quienes-somos.html">Quienes somos</a>
+                            </li>
+                            <li class="nav-item nav-menu-marcador">
+                                <a class="nav-link active" href="paginas/contacto.html">Contacto</a>
+                            </li>
+                            <span class="navbar-text">
+                                <a href="paginas/carrito.html"><img src="imagenes/carrito-de-compras.png" class="nav-carrito" alt=""></a>
+                            </span>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- Comienza el main -->
-    <main>
+    <main class="espacioHeaderFooter">
         <!-- boton para subir -->
         <div class="menú-up">
-            <a href="#menú"><img src="imagenes/chevron-flecha-hacia-arriba.png" alt="subir" width="30px"></a> 
-        </div>
-        <!-- carrusel -->
-        <div>
-            <div class="ordenCarrousel">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-8">
-                            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="imagenes/carrousel/PicsArt_10-15-06.31.08.jpg" class="d-block w-100" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                        </div>
-                                    </div>
-                                <div class="carousel-item">
-                                    <img src="imagenes/carrousel/PicsArt_10-15-06.31.36.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="imagenes/carrousel/mate4.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-              </div>
-            </div>
+            <a href="#menu"><img src="imagenes/chevron-flecha-hacia-arriba.png" alt="subir" width="30px"></a> 
         </div>
         <div>
             <!-- Tabla -->
-            <table border="1cm solid" class="tabla">
-                <tr>
-                    <th class="tabla-cabeceros">Productos</th>
-                    <th class="tabla-cabeceros">Información tecnica</th>
-                    <th class="tabla-cabeceros">Caracteristicas</th>
-                    <th class="tabla-cabeceros">Comentarios</th>
-                </tr>
-                <tr>
-                    <td>Combo 1</td>
-                    <td>
-                        <ul>
-                            <li>Termo Termolar 1lts</li>
-                            <li>Mate camionero uruguayo</li>
-                            <li>Bombilla pico de rey</li>
-                        </ul>
-                    </td>
-                    <td>Es un combo muy duradero</td>
-                    <td>
-                        <ol>
-                            <li>El termo es un producto original traido desde Brazil</li>
-                            <li>El mate está forrado en cuero vacuno premium</li>
-                            <li>La bombilla es de alpaca (muy buena calidad)</li>
-                        </ol>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Combo 2</td>
-                    <td>
-                        <ul>
-                            <li>Termo Media manija 1lts</li>
-                            <li>Mate camionero nacional</li>
-                            <li>Bombilla pico de Loro</li>
-                        </ul>
-                    </td>
-                    <td>Es un combo ecónomico</td>
-                    <td>
-                        <ol>
-                            <li>El termo es un producto nacional</li>
-                            <li>El mate está forrado en cuero vacuno</li>
-                            <li>La bombilla es nacional</li>
-                        </ol>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Combo 3</td>
-                    <td>
-                        <ul>
-                            <li>Termo Stanley 1.5lts</li>
-                            <li>Mate imperial uruguayo</li>
-                            <li>Bombillon pico de Rey</li>
-                        </ul>
-                    </td>
-                    <td>Es un muy premium y duradero</td>
-                    <td>
-                        <ol>
-                            <li>El termo es original</li>
-                            <li>El mate está forrado en cuero vacuno premium, se lo puede personalizar (opcional)</li>
-                            <li>La bombilla es de alpaca</li>
-                        </ol>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Combo 4</td>
-                    <td>
-                        <ul>
-                            <li>Termo Termolar 1lts</li>
-                            <li>Mate camionero nacional</li>
-                            <li>Bombilla pico de Loro de alpaca</li>
-                        </ul>
-                    </td>
-                    <td>Es un combo muy duradero y personalizable</td>
-                    <td>
-                        <ol>
-                            <li>El termo es un producto original traido desde Brazil, se lo puede personalizar</li>
-                            <li>El mate está forrado en cuero vacuno premium, se lo puede grabar con laser</li>
-                            <li>La bombilla es de alpaca (muy buena calidad)</li>
-                            <li>Se agrega 1kg de yerba a elección(GRATIS)</li>
-                        </ol>
-                    </td>
-                </tr>
-            </table>
+            <div class="container">
+                <div class="m-4 text-center">
+                    <div class="table-responsive text-center">
+                        <table border="1cm solid" class="tabla">
+                            <tr>
+                                <th class="tabla-cabeceros">Productos</th>
+                                <th class="tabla-cabeceros">Información tecnica</th>
+                                <th class="tabla-cabeceros">Caracteristicas</th>
+                                <th class="tabla-cabeceros">Comentarios</th>
+                            </tr>
+                            <tr>
+                                <td>Combo 1</td>
+                                <td>
+                                    <ul>
+                                        <li>Termo Termolar 1lts</li>
+                                        <li>Mate camionero uruguayo</li>
+                                        <li>Bombilla pico de rey</li>
+                                    </ul>
+                                </td>
+                                <td>Es un combo muy duradero</td>
+                                <td>
+                                    <ol>
+                                        <li>El termo es un producto original traido desde Brazil</li>
+                                        <li>El mate está forrado en cuero vacuno premium</li>
+                                        <li>La bombilla es de alpaca (muy buena calidad)</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Combo 2</td>
+                                <td>
+                                    <ul>
+                                        <li>Termo Media manija 1lts</li>
+                                        <li>Mate camionero nacional</li>
+                                        <li>Bombilla pico de Loro</li>
+                                    </ul>
+                                </td>
+                                <td>Es un combo ecónomico</td>
+                                <td>
+                                    <ol>
+                                        <li>El termo es un producto nacional</li>
+                                        <li>El mate está forrado en cuero vacuno</li>
+                                        <li>La bombilla es nacional</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Combo 3</td>
+                                <td>
+                                    <ul>
+                                        <li>Termo Stanley 1.5lts</li>
+                                        <li>Mate imperial uruguayo</li>
+                                        <li>Bombillon pico de Rey</li>
+                                    </ul>
+                                </td>
+                                <td>Es un muy premium y duradero</td>
+                                <td>
+                                    <ol>
+                                        <li>El termo es original</li>
+                                        <li>El mate está forrado en cuero vacuno premium, se lo puede personalizar (opcional)</li>
+                                        <li>La bombilla es de alpaca</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Combo 4</td>
+                                <td>
+                                    <ul>
+                                        <li>Termo Termolar 1lts</li>
+                                        <li>Mate camionero nacional</li>
+                                        <li>Bombilla pico de Loro de alpaca</li>
+                                    </ul>
+                                </td>
+                                <td>Es un combo muy duradero y personalizable</td>
+                                <td>
+                                    <ol>
+                                        <li>El termo es un producto original traido desde Brazil, se lo puede personalizar</li>
+                                        <li>El mate está forrado en cuero vacuno premium, se lo puede grabar con laser</li>
+                                        <li>La bombilla es de alpaca (muy buena calidad)</li>
+                                        <li>Se agrega 1kg de yerba a elección(GRATIS)</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        <!-- Combos -->
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card espacioCards zoom">
+                    <img src="../imagenes/productos/mate-torpedo-uru.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Combo</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card  espacioCards zoom">
+                      <img src="../imagenes/productos/mate-torpedo-uru.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Combo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card espacioCards zoom">
+                      <img src="../imagenes/productos/mate-torpedo-uru.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Combo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card espacioCards zoom">
+                      <img src="../imagenes/productos/mate-torpedo-uru.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Combo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card espacioCards zoom">
+                      <img src="../imagenes/productos/mate-torpedo-uru.jpg" class="card-img-top img-fluid" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Combo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
         </div>
-            <!-- Combos -->
-        <div class="productos-grid">
-            <article class="combos zoom">
-                <p>
-                    [COMBO 1]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 2]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 3]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 4]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 5] Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 6]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 7]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 8]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-            <article class="combos zoom">
-                <p>
-                    [COMBO 9]Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsa molestiae excepturi 
-                    assumenda inventore deleniti omnis voluptatum, aliquam similique eaque quam minima incidunt 
-                    deserunt quos consequatur earum facere id sequi!
-                </p>
-            </article>
-        </div>
-       </main>
+    </main>
        <!-- Comienza el footer -->
        <footer>
            <!-- Redes sociales -->
@@ -255,11 +239,9 @@
                <a href="https://www.instagram.com/nicofiore_/" target="_blank">Instagram</a>
            </div>
            <div>
-               <br>
                <p>©Copyright 2021</p> 
            </div>
         </footer>
-    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
