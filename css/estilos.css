@@ -56,8 +56,11 @@ header, footer {
 /* links del footer */
 footer a, footer p {
   color: white;
-  text-decoration: none;
   margin-left: 5px; }
+footer a:hover{
+  color: white;
+  margin-bottom: 5px;
+}
 
 /* inicio */
 .ordenCarrousel {
@@ -186,6 +189,7 @@ footer a, footer p {
   margin-bottom: 10px; }
 
 /* quienes somos */
+
 .quienes-somos {
   background-color: #c69b7c;
   color: black;
@@ -194,6 +198,10 @@ footer a, footer p {
   margin-bottom: 10px;
   font-size: 20px;
   border-radius: 10px; }
+
+.quienes-somos a{
+  color: #804000;
+}
 
 .mapa-iframe {
   text-align: center;
